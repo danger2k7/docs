@@ -78,7 +78,7 @@ Datasources
 Http
 ----
 
-* ``ServerRequest::referer()`` now defaults the ``local``
+* ``Cake\Http\ServerRequest::referer()`` now defaults the ``local``
   parameter to true, instead of false. This makes using referer headers safer as
   they will be constrained to your application's domain by default.
 * The default value of ``ServerRequest::getParam()`` when a parameter is missing
